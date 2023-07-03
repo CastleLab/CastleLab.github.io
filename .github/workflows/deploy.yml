@@ -24,17 +24,16 @@ jobs:
       url: ${{ vars.PUBLIC_URL }}
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.5.1
         with:
           node-version: 16.x
           cache: 'yarn'
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
 
       - name: Install dependencies
         run: yarn
