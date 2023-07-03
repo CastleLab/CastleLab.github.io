@@ -49,8 +49,10 @@ jobs:
         uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          ARGS: "-rlgoDzvc -i"
-          SOURCE: "build/"
+          ARGS: '-rlgoDzvc -i'
+          SOURCE: 'build/'
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}
+          SCRIPT_AFTER: |
+            chmod 755 -R ${{ secrets.REMOTE_TARGET }}
