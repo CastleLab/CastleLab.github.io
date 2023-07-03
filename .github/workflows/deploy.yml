@@ -28,6 +28,8 @@ jobs:
         uses: actions/setup-node@v2.5.1
         with:
           node-version: 16.x
+          cache: 'yarn'
+          cache-dependency-path: yarn.lock
       - name: Checkout
         uses: actions/checkout@v3
         with:
@@ -42,7 +44,7 @@ jobs:
         run: |
           export PUBLIC_URL=${{ vars.PUBLIC_URL }}
           yarn build
-          
+
       - name: Deploy
         uses: easingthemes/ssh-deploy@main
         env:
@@ -51,4 +53,4 @@ jobs:
           SOURCE: "build/"
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          TARGET: ${{ secrets.REMOTE_TARGET }}   
+          TARGET: ${{ secrets.REMOTE_TARGET }}
