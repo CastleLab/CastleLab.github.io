@@ -20,19 +20,19 @@ export function Header(): ReactElement {
                   <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="news">News</a>
+                  <a href="#/news">News</a>
                 </li>
                 <li>
-                  <a href="projects">Projects</a>
+                  <a href="#/projects">Projects</a>
                 </li>
                 <li>
-                  <a href="publication">Publication</a>
+                  <a href="#/publication">Publication</a>
                 </li>
                 <li>
-                  <a href="people">People</a>
+                  <a href="#/people">People</a>
                 </li>
                 <li>
-                  <a href="awards">Awards</a>
+                  <a href="#/awards">Awards</a>
                 </li>
               </ul>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { Awards } from './pages/Awards';
 import { Header } from './components/Header';
@@ -9,7 +9,7 @@ import { Publication } from './pages/Publication';
 import { People } from './pages/People';
 import { News } from './pages/News';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Home />,

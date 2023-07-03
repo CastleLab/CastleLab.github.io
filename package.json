@@ -30,7 +30,7 @@
   },
   "scripts": {
     "start": "REACT_APP_GIT_SHA=$(git rev-parse --short HEAD) REACT_APP_BUILD_TIME=$(date +'%Y-%m-%d %H:%M:%S UTC%z') react-scripts start",
-    "build": "REACT_APP_GIT_SHA=$(git rev-parse --short HEAD) REACT_APP_BUILD_TIME=$(date +'%Y-%m-%d %H:%M:%S UTC%z') react-scripts build",
+    "build": "REACT_APP_GIT_SHA=$(git rev-parse --short HEAD) REACT_APP_BUILD_TIME=$(date +'%Y-%m-%d %H:%M:%S UTC%z') react-scripts build && bash scripts/gen-legacy-redirect-pages.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
