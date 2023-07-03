@@ -1,7 +1,11 @@
 {
-  "name": "home",
+  "name": "homepage",
+  "description": "Homepage of CASTLE Research Group",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://castle.cse.ust.hk",
+  "type": "module",
+  "packageManager": "yarn@3.6.1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -39,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/prettier": "^2",
+    "prettier": "2.8.8"
   }
 }
