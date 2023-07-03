@@ -46,7 +46,7 @@ jobs:
 
       - name: Build
         run: |
-          export PUBLIC_URL=${{ steps.deployment.outputs.page_url }}
+          export PUBLIC_URL=${{ vars.PUBLIC_URL }}
           yarn build
 
       - name: Upload artifact
