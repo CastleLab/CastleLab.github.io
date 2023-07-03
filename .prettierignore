@@ -3,3 +3,7 @@ build
 coverage
 public
 dist
+
+yarn.lock
+.vscode/
+.yarn/

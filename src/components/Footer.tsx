@@ -21,8 +21,8 @@ export function Footer(): ReactElement {
           <div className="footer-right">
             <div className="footer-left-text">
               <p>
-              Template designed by
-              <a href="http://w3layouts.com/"> w3layouts</a>
+                Template designed by
+                <a href="http://w3layouts.com/"> w3layouts</a>
               </p>
             </div>
           </div>

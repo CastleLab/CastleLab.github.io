@@ -32,7 +32,9 @@
     "start": "REACT_APP_GIT_SHA=$(git rev-parse --short HEAD) REACT_APP_BUILD_TIME=$(date +'%Y-%m-%d %H:%M:%S UTC%z') react-scripts start",
     "build": "REACT_APP_GIT_SHA=$(git rev-parse --short HEAD) REACT_APP_BUILD_TIME=$(date +'%Y-%m-%d %H:%M:%S UTC%z') react-scripts build && bash scripts/gen-legacy-redirect-pages.sh",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write .",
+    "lint": "eslint --fix ./src/**/*.{js,jsx,ts,tsx}"
   },
   "eslintConfig": {
     "extends": [
@@ -54,8 +56,10 @@
   },
   "devDependencies": {
     "@types/bootstrap": "^5",
+    "@types/eslint": "^8",
     "@types/lodash": "^4",
     "@types/prettier": "^2",
+    "eslint": "^8.44.0",
     "prettier": "2.8.8"
   }
 }
