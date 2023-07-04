@@ -42,12 +42,16 @@ jobs:
         run: |
           export PUBLIC_URL=${{ vars.PUBLIC_URL }}
           yarn build
+          
+      - name: Change permission
+        run: |
+          chmod 755 -R build
 
       - name: Deploy
         uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          ARGS: '-rlgoDzvc -i --delete --chmod=a=rwX'
+          ARGS: '-rlgoDzvc -i --delete -p'
           SOURCE: 'build/'
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
