@@ -55,7 +55,7 @@ export function Publication(): ReactElement {
     });
   }, []);
 
-      return (
+  return (
     <div className="container">
       <div style={{ minHeight: 200 }}>
         {loading ? (
