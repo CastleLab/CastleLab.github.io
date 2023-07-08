@@ -30,5 +30,3 @@ Admin will merge the PR if everything looks good.
 Any push to `main` branch will trigger a `preview` GitHub Action to deploy to GitHub Page: https://castlelab.github.io.
 
 Deployment to server can only be triggered manually via GitHub Action [`deploy`](https://github.com/CastleLab/CastleLab.github.io/actions/workflows/deploy.yml).
-
-
