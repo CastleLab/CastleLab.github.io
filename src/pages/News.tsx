@@ -6,18 +6,17 @@ export function News(): ReactElement {
       <div className="container news-content">
         <h4>News</h4>
         <div className="news-photo">
-          <img src="images/news2.png" alt=" " />
+          <img src="images/news3.gif" alt=" " />
         </div>
         <div className="news-photo-text">
           <h5>
-            Nov. 2016: Prof. Shing-Chi Cheung elected as an{' '}
-            <a href="http://www.acm.org/media-center/2016/november/distinguished-members-2016?from=timeline&isappinstalled=0">
-              ACM Distinguished Scientist
+            Nov. 2022: Prof. Shing-Chi Cheung elected as a{' '}
+            <a href="https://cse.hkust.edu.hk/News/IEEE_Fellow2023/">
+              IEEE Fellow
             </a>
           </h5>
           <p>
-            Prof. Shing-Chi Cheung has been elected as an ACM Distinguished
-            Scientist in November 2016.
+            Prof. Shing-Chi Cheung has been elected as a IEEE Fellow in November 2022.
           </p>
         </div>
         <div className="clearfix"> </div>
