@@ -17,7 +17,10 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.BOT_TOKEN }}
+          fetch-depth: 0
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
@@ -43,4 +46,5 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
           add: .
           author_name: GitHub Action
-          message: changes by lint&format script
+          message: changes by lint&format script [skip ci]
+          push: origin main
