@@ -1,0 +1,36 @@
+# This is a basic workflow to do the last time check before release, i.e., merge to main branch
+
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy Preview to GitHub Pages
+
+on:
+  # Runs on pushes targeting the release branch
+  pull_request:
+    branches: [main]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # Single deploy job since we're just deploying
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.5.1
+        with:
+          node-version: 16.x
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Build
+        run: |
+          yarn Build
+
