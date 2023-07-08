@@ -1,7 +1,7 @@
 # This is a basic workflow to do the last time check before release, i.e., merge to main branch
 
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy Preview to GitHub Pages
+name: Build React Webpage
 
 on:
   # Runs on pushes targeting the release branch

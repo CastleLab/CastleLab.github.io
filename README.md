@@ -18,12 +18,17 @@ yarn
 yarn start
 ```
 
-## Update and Deployment
+## Update
 
-Any push to `main` branch will trigger a `deployment` GitHub Action to deploy to server.
-However, `main` branch is protected and cannot be directed pushed to.
-
+The `main` branch is protected and cannot be directed pushed to (admin has bypassing privileges, however).
 Should CASTLE members need to update the homepage, a Pull Request (PR) should be created.
-Each PR needs to go through several checks (GitHub Actions).
-Then before the merge, a preview version of the homepage will be deployed to GitHub Pages, accessible via https://castlelab.github.io.
+Each PR needs to go through several checks (GitHub Actions), e.g., webpage compilation.
 Admin will merge the PR if everything looks good.
+
+## Deployment
+
+Any push to `main` branch will trigger a `preview` GitHub Action to deploy to GitHub Page: https://castlelab.github.io.
+
+Deployment to server can only be triggered manually via GitHub Action [`deploy`](https://github.com/CastleLab/CastleLab.github.io/actions/workflows/deploy.yml).
+
+
