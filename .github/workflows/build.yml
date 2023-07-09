@@ -32,4 +32,4 @@ jobs:
 
       - name: Build
         run: |
-          yarn Build
+          yarn build
