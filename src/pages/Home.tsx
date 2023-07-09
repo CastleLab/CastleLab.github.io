@@ -20,13 +20,15 @@ export function Home(): ReactElement {
           </li>
 
           <li>
+            <b>May. 2023: </b> Three papers are accepted by ISSTA'23.
+          </li>
+
+          <li>
             <b>Aug. 2022: </b> Lili Wei became Assistant Professor at McGill
             University.
           </li>
 
-          <li>
-            <b>Jul. 2021: </b> Two papers are accepted by ASE'21.
-          </li>
+
         </ul>
       </div>
       <div id="about" className="team">

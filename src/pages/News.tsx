@@ -28,6 +28,15 @@ export function News(): ReactElement {
           </li>
 
           <li>
+            <b>May. 2023: </b> Three papers are accepted by ISSTA'23.
+          </li>
+
+          <li>
+            <b>May. 2023: </b> Multiple papers are accepted by ACM TOSEM and IEEE TSE.
+          </li>
+
+
+          <li>
             <b>Aug. 2022: </b> Lili Wei became Assistant Professor at McGill
             University.
           </li>
