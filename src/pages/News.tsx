@@ -10,13 +10,13 @@ export function News(): ReactElement {
         </div>
         <div className="news-photo-text">
           <h5>
-            Nov. 2022: Prof. Shing-Chi Cheung elected as a{' '}
+            Nov. 2022: Prof. Shing-Chi Cheung elected as an{' '}
             <a href="https://cse.hkust.edu.hk/News/IEEE_Fellow2023/">
               IEEE Fellow
             </a>
           </h5>
           <p>
-            Prof. Shing-Chi Cheung has been elected as a IEEE Fellow in November
+            Prof. Shing-Chi Cheung has been elected as an IEEE Fellow in November
             2022.
           </p>
         </div>
