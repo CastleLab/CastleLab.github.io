@@ -20,21 +20,21 @@ export function Home(): ReactElement {
           </li>
 
           <li>
-            <b>May. 2023: </b> Three papers are accepted by ISSTA'23.
-            They are on the research field of Deep Learning compiler testing and android testing.
+            <b>May. 2023: </b> Three papers are accepted by ISSTA'23. They are
+            on the research field of Deep Learning compiler testing and android
+            testing.
           </li>
 
           <li>
-            <b>May. 2023: </b> Multiple papers are accepted by ACM TOSEM and IEEE TSE.
-            They are on the research field of Deep Learning testing and smart contract testing.
+            <b>May. 2023: </b> Multiple papers are accepted by ACM TOSEM and
+            IEEE TSE. They are on the research field of Deep Learning testing
+            and smart contract testing.
           </li>
 
           <li>
             <b>Aug. 2022: </b> Lili Wei became Assistant Professor at McGill
             University.
           </li>
-
-
         </ul>
       </div>
       <div id="about" className="team">

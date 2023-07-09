@@ -16,8 +16,8 @@ export function News(): ReactElement {
             </a>
           </h5>
           <p>
-            Prof. Shing-Chi Cheung has been elected as an IEEE Fellow in November
-            2022.
+            Prof. Shing-Chi Cheung has been elected as an IEEE Fellow in
+            November 2022.
           </p>
         </div>
         <div className="clearfix"> </div>
@@ -32,9 +32,9 @@ export function News(): ReactElement {
           </li>
 
           <li>
-            <b>May. 2023: </b> Multiple papers are accepted by ACM TOSEM and IEEE TSE.
+            <b>May. 2023: </b> Multiple papers are accepted by ACM TOSEM and
+            IEEE TSE.
           </li>
-
 
           <li>
             <b>Aug. 2022: </b> Lili Wei became Assistant Professor at McGill
