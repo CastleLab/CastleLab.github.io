@@ -21,6 +21,12 @@ export function Home(): ReactElement {
 
           <li>
             <b>May. 2023: </b> Three papers are accepted by ISSTA'23.
+            They are on the research field of Deep Learning compiler testing and android testing.
+          </li>
+
+          <li>
+            <b>May. 2023: </b> Multiple papers are accepted by ACM TOSEM and IEEE TSE.
+            They are on the research field of Deep Learning testing and smart contract testing.
           </li>
 
           <li>
