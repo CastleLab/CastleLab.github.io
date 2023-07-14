@@ -24,17 +24,11 @@ export function Home(): ReactElement {
           </li>
 
           <li>
+            <b>Jul. 2023: </b> Prof. Shing-Chi Cheung has been promoted to chair professorship.
+          </li>
+
+          <li>
             <b>Jun. 2023: </b> One paper on program synthesis is accepted by TOSEM.
-          </li>
-
-          <li>
-            <b>May. 2023: </b> Three papers are accepted by ISSTA'23. They are
-            for Deep Learning compiler testing and android testing.
-          </li>
-
-          <li>
-            <b>May. 2023: </b> Multiple papers are accepted by ACM TOSEM and
-            IEEE TSE. They are for Deep Learning testing and smart contract testing.
           </li>
         </ul>
       </div>

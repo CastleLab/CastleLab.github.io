@@ -32,6 +32,10 @@ export function News(): ReactElement {
           </li>
 
           <li>
+            <b>Jul. 2023: </b> Prof. Shing-Chi Cheung has been promoted to chair professorship.
+          </li>
+
+          <li>
             <b>Jun. 2023: </b> One paper is accepted by TOSEM.
           </li>
 
