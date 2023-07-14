@@ -28,6 +28,14 @@ export function News(): ReactElement {
           </li>
 
           <li>
+            <b>Jul. 2023: </b> Yongqiang Tian has successfully defended his PhD thesis.
+          </li>
+
+          <li>
+            <b>Jun. 2023: </b> One paper is accepted by TOSEM.
+          </li>
+
+          <li>
             <b>May. 2023: </b> Three papers are accepted by ISSTA'23.
           </li>
 
