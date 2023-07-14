@@ -28,11 +28,13 @@ export function News(): ReactElement {
           </li>
 
           <li>
-            <b>Jul. 2023: </b> Yongqiang Tian has successfully defended his PhD thesis.
+            <b>Jul. 2023: </b> Yongqiang Tian has successfully defended his PhD
+            thesis.
           </li>
 
           <li>
-            <b>Jul. 2023: </b> Prof. Shing-Chi Cheung has been promoted to chair professorship.
+            <b>Jul. 2023: </b> Prof. Shing-Chi Cheung has been promoted to chair
+            professorship.
           </li>
 
           <li>

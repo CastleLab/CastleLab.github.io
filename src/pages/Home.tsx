@@ -20,15 +20,18 @@ export function Home(): ReactElement {
           </li>
 
           <li>
-            <b>Jul. 2023: </b> Yongqiang Tian has successfully defended his PhD thesis. Congratulations!
+            <b>Jul. 2023: </b> Yongqiang Tian has successfully defended his PhD
+            thesis. Congratulations!
           </li>
 
           <li>
-            <b>Jul. 2023: </b> Prof. Shing-Chi Cheung has been promoted to chair professorship.
+            <b>Jul. 2023: </b> Prof. Shing-Chi Cheung has been promoted to chair
+            professorship.
           </li>
 
           <li>
-            <b>Jun. 2023: </b> One paper on program synthesis is accepted by TOSEM.
+            <b>Jun. 2023: </b> One paper on program synthesis is accepted by
+            TOSEM.
           </li>
         </ul>
       </div>
