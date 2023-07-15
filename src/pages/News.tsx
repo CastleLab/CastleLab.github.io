@@ -22,10 +22,6 @@ export function News(): ReactElement {
         </div>
         <div className="clearfix"> </div>
         <ul className="news-list">
-          <li>
-            <b>Nov. 2022: </b> Prof. Shing-Chi Cheung has been elected to the
-            IEEE Fellow Class 2023.
-          </li>
 
           <li>
             <b>Jul. 2023: </b> Yongqiang Tian has successfully defended his PhD
@@ -51,10 +47,27 @@ export function News(): ReactElement {
           </li>
 
           <li>
+            <b>Nov. 2022: </b> Prof. Shing-Chi Cheung has been elected to the
+            IEEE Fellow Class 2023.
+          </li>
+
+          <li>
+            <b>Oct. 2022: </b> One paper accepted to ASE 2022.
+          </li>
+
+          <li>
             <b>Aug. 2022: </b> Lili Wei became Assistant Professor at McGill
             University.
           </li>
 
+          <li>
+            <b>Aug. 2022: </b> One paper is accepted by USENIX Security 2022.
+          </li>
+
+          <li>
+            <b>May. 2022: </b> Three papers are accepted by ICSE 2022.
+          </li>
+          
           <li>
             <b>Jul. 2021: </b> Two papers are accepted by ASE'21.
           </li>
