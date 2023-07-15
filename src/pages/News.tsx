@@ -22,7 +22,6 @@ export function News(): ReactElement {
         </div>
         <div className="clearfix"> </div>
         <ul className="news-list">
-
           <li>
             <b>Jul. 2023: </b> Yongqiang Tian has successfully defended his PhD
             thesis.
@@ -67,7 +66,7 @@ export function News(): ReactElement {
           <li>
             <b>May. 2022: </b> Three papers are accepted by ICSE 2022.
           </li>
-          
+
           <li>
             <b>Jul. 2021: </b> Two papers are accepted by ASE'21.
           </li>
