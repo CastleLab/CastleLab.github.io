@@ -298,7 +298,6 @@ export function People(): ReactElement {
             <p>MPhil Graduate. Now a Ph.D. Student at HKUST</p>
           </div>
 
-
           <div className="banner-bottom-left">
             <div className="portrait">
               <img alt="" src="images/quan.jpg" className="portrait-round" />

@@ -14,9 +14,9 @@ export function Home(): ReactElement {
       <div className="container news">
         <h4>News</h4>
         <ul>
-
           <li>
-            <b>Jul. 2023: </b> One paper on software testing using LLM is accepted by ASE'23.
+            <b>Jul. 2023: </b> One paper on software testing using LLM is
+            accepted by ASE'23.
           </li>
 
           <li>
@@ -38,7 +38,6 @@ export function Home(): ReactElement {
             <b>Nov. 2022: </b> Prof. Shing-Chi Cheung has been elected to the
             IEEE Fellow Class 2023.
           </li>
-
         </ul>
       </div>
       <div id="about" className="team">
