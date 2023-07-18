@@ -22,6 +22,11 @@ export function News(): ReactElement {
         </div>
         <div className="clearfix"> </div>
         <ul className="news-list">
+
+          <li>
+            <b>Jul. 2023: </b> One paper on software testing using LLM is accepted by ASE'23.
+          </li>
+
           <li>
             <b>Jul. 2023: </b> Yongqiang Tian has successfully defended his PhD
             thesis.
