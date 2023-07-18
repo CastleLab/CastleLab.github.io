@@ -53,7 +53,7 @@ export function People(): ReactElement {
             </a>
 
             <h3>
-              <a href="https://justinwm.github.io">Ming Wen</a>
+              <a href="https://mingwen-cs.github.io/">Ming Wen</a>
             </h3>
             <p>Associate Professor at HUST</p>
           </div>
@@ -231,18 +231,6 @@ export function People(): ReactElement {
           </div>
 
           <div className="banner-bottom-left">
-            <a href="https://github.com/Derppening/">
-              <div className="portrait">
-                <img alt="" src="images/david.jpg" className="portrait-round" />
-              </div>
-            </a>
-            <h3>
-              <a href="https://github.com/Derppening/">David Mak</a>
-            </h3>
-            <p>MPhil Student at HKUST</p>
-          </div>
-
-          <div className="banner-bottom-left">
             <a href="https://haoyang9804.github.io">
               <div className="portrait">
                 <img
@@ -299,6 +287,19 @@ export function People(): ReactElement {
           <h2>Former Members</h2>
 
           <div className="banner-bottom-left">
+            <a href="https://github.com/Derppening/">
+              <div className="portrait">
+                <img alt="" src="images/david.jpg" className="portrait-round" />
+              </div>
+            </a>
+            <h3>
+              <a href="https://github.com/Derppening/">David Mak</a>
+            </h3>
+            <p>MPhil Graduate. Now a Ph.D. Student at HKUST</p>
+          </div>
+
+
+          <div className="banner-bottom-left">
             <div className="portrait">
               <img alt="" src="images/quan.jpg" className="portrait-round" />
             </div>
@@ -347,7 +348,7 @@ export function People(): ReactElement {
                 Wanjun Chen
               </a>
             </h3>
-            <p>MPhil Graduate now at Daimler Greater China Ltd.</p>
+            <p>MPhil Graduate. Now at Daimler Greater China Ltd.</p>
           </div>
           <div className="banner-bottom-left">
             {/*  <a href="">  */}
