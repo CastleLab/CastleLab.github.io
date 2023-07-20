@@ -1,7 +1,6 @@
 import { ReactElement } from 'react';
 
 export function Header(): ReactElement {
-
   // change element with id="nav1" to display block if it is hidden, or hide it if it is displayed
   const toggleMenu = () => {
     const nav1 = document.getElementById('nav1');
