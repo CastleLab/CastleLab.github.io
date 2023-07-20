@@ -124,7 +124,6 @@ export function People(): ReactElement {
             <p>Post-doctoral Fellow at HKUST&UWaterloo</p>
           </div>
 
-
           {/*  Students  */}
 
           <div className="clearfix"> </div>
@@ -151,7 +150,6 @@ export function People(): ReactElement {
             </h3>
             <p>PhD Student at HKUST</p>
           </div>
-
 
           <div className="banner-bottom-left">
             <div className="portrait">
