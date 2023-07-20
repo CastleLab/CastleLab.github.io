@@ -1,6 +1,19 @@
 import { ReactElement } from 'react';
 
 export function Header(): ReactElement {
+
+  // change element with id="nav1" to display block if it is hidden, or hide it if it is displayed
+  const toggleMenu = () => {
+    const nav1 = document.getElementById('nav1');
+    if (nav1) {
+      if (nav1.style.display === 'block') {
+        nav1.style.display = 'none';
+      } else {
+        nav1.style.display = 'block';
+      }
+    }
+  };
+
   return (
     <>
       <div className="header">
@@ -11,11 +24,11 @@ export function Header(): ReactElement {
                 <img src="images/logo.png" alt=" " height="68px"></img>
               </a>
             </div>
-            <div className="top-nav">
+            <div className="top-nav" onClick={toggleMenu}>
               <span className="menu">
                 <img src="images/menu.png" alt="" />
               </span>
-              <ul className="nav1">
+              <ul className="nav1" id="nav1">
                 <li>
                   <a href="/">Home</a>
                 </li>
