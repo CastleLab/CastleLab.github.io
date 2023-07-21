@@ -121,7 +121,7 @@ export function People(): ReactElement {
             <h3>
               <a href="http://home.cse.ust.hk/~ytianas/">Yongqiang Tian</a>
             </h3>
-            <p>Post-doctoral Fellow at HKUST&UWaterloo</p>
+            <p>Post-doctoral Fellow at HKUST</p>
           </div>
 
           {/*  Students  */}
