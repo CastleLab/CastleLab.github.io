@@ -23,8 +23,8 @@ export function Header(): ReactElement {
                 <img src="images/logo.png" alt=" " height="68px"></img>
               </a>
             </div>
-            <div className="top-nav" onClick={toggleMenu}>
-              <span className="menu">
+            <div className="top-nav">
+              <span className="menu" onClick={toggleMenu}>
                 <img src="images/menu.png" alt="" />
               </span>
               <ul className="nav1" id="nav1">
