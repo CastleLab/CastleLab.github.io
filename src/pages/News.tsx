@@ -28,9 +28,10 @@ export function News(): ReactElement {
           </li>
 
           <li>
-            <b>Jul. 2023: </b> Two papers are accepted by ACM TOSEM. Congrats to Victor and Hengcheng.
+            <b>Jul. 2023: </b> Two papers are accepted by ACM TOSEM. Congrats to
+            Victor and Hengcheng.
           </li>
-          
+
           <li>
             <b>Jul. 2023: </b> One paper on software testing using LLM is
             accepted by ASE'23. Congrats to Tsz-On.
