@@ -15,6 +15,11 @@ export function Home(): ReactElement {
         <h4>News</h4>
         <ul>
           <li>
+            <b>Jul. 2023: </b> Huaxun Huang has successfully defended his PhD
+            thesis. Congratulations!
+          </li>
+
+          <li>
             <b>Jul. 2023: </b> One paper on software testing using LLM is
             accepted by ASE'23.
           </li>
