@@ -23,10 +23,10 @@ export function News(): ReactElement {
         <div className="clearfix"> </div>
         <ul className="news-list">
           <li>
-            <b>Jul. 2023: </b> Three papers are accepted by ESEC/FSE 2023. Congrats to
-            Ying, Ming, Jialun and Xiao.
+            <b>Jul. 2023: </b> Three papers are accepted by ESEC/FSE 2023.
+            Congrats to Ying, Ming, Jialun and Xiao.
           </li>
-          
+
           <li>
             <b>Jul. 2023: </b> Huaxun Huang has successfully defended his PhD
             thesis.
