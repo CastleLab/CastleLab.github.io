@@ -13,7 +13,7 @@ export function People(): ReactElement {
             <h3>
               <a href="http://www.cse.ust.hk/faculty/scc/">Shing-Chi Cheung</a>
             </h3>
-            <p>Professor at HKUST</p>
+            <p>Chair Professor at HKUST</p>
           </div>
           <div className="banner-bottom-left">
             <a href="http://cs.nju.edu.cn/changxu/">
@@ -136,17 +136,6 @@ export function People(): ReactElement {
 
             <h3>
               <a href="http://home.cse.ust.hk/~jhuao/">Jiajun Hu</a>
-            </h3>
-            <p>PhD Student at HKUST</p>
-          </div>
-
-          <div className="banner-bottom-left">
-            <a href="https://huaxunhuang.github.io">
-              <div className="portrait huaxun"></div>
-            </a>
-
-            <h3>
-              <a href="https://huaxunhuang.github.io">Huaxun Huang</a>
             </h3>
             <p>PhD Student at HKUST</p>
           </div>
@@ -308,6 +297,17 @@ export function People(): ReactElement {
           <h2>Former Members</h2>
 
           <div className="banner-bottom-left">
+            <a href="https://huaxunhuang.github.io">
+              <div className="portrait huaxun"></div>
+            </a>
+
+            <h3>
+              <a href="https://huaxunhuang.github.io">Huaxun Huang</a>
+            </h3>
+            <p>PhD Graduate at HKUST</p>
+          </div>
+
+          <div className="banner-bottom-left">
             <a href="https://github.com/Derppening/">
               <div className="portrait">
                 <img alt="" src="images/david.jpg" className="portrait-round" />
@@ -316,7 +316,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://github.com/Derppening/">David Mak</a>
             </h3>
-            <p>MPhil Graduate. Now a Ph.D. Student at HKUST</p>
+            <p>MPhil Graduate. A future Ph.D. Student at HKUST</p>
           </div>
 
           <div className="banner-bottom-left">
