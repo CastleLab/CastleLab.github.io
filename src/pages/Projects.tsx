@@ -7,7 +7,10 @@ export function Projects(): ReactElement {
         <h3>Funded Research Projects</h3>
         <ul className="project_ul">
           <li>
-            More recent funded projects are avaiable at <a href="https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shing-chi-cheung-sccheung#proj">here</a>
+            More recent funded projects are avaiable at{' '}
+            <a href="https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shing-chi-cheung-sccheung#proj">
+              here
+            </a>
           </li>
           <li>
             Diagnosing Energy Inefficiencies in Mobile Applications based on
