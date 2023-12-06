@@ -320,7 +320,10 @@ export function People(): ReactElement {
             <h3>
               <a href="https://huaxunhuang.github.io">Huaxun Huang</a>
             </h3>
-            <p>PhD Graduate at HKUST. An incoming Assistant Professor at Xiamen University</p>
+            <p>
+              PhD Graduate at HKUST. An incoming Assistant Professor at Xiamen
+              University
+            </p>
           </div>
 
           <div className="banner-bottom-left">
