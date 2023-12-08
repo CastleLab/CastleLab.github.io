@@ -32,7 +32,7 @@ export function People(): ReactElement {
             <h3>
               <a href="http://yepangliu.github.io/">Yepang Liu</a>
             </h3>
-            <p>Asistant Professor at SUSTech</p>
+            <p>Associate Professor at SUSTech</p>
           </div>
           <div className="banner-bottom-left">
             <a href="https://wurongxin1987.github.io/wurongxin.xmu.edu.cn">
