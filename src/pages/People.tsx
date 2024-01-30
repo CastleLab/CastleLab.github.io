@@ -130,17 +130,6 @@ export function People(): ReactElement {
           <h2>Students</h2>
 
           <div className="banner-bottom-left">
-            <a href="http://home.cse.ust.hk/~jhuao/">
-              <div className="portrait jiajun"></div>
-            </a>
-
-            <h3>
-              <a href="http://home.cse.ust.hk/~jhuao/">Jiajun Hu</a>
-            </h3>
-            <p>PhD Student at HKUST</p>
-          </div>
-
-          <div className="banner-bottom-left">
             <div className="portrait">
               <img alt="" src="images/jiarong.png" className="portrait-round" />
             </div>
@@ -165,18 +154,6 @@ export function People(): ReactElement {
               <img alt="" src="images/luliu.png" className="portrait-round" />
             </div>
             <h3>Lu Liu</h3>
-            <p>PhD Student at HKUST</p>
-          </div>
-
-          <div className="banner-bottom-left">
-            <a href="https://bella-academic.netlify.app/">
-              <div className="portrait">
-                <img alt="" src="images/cao.jpg" className="portrait-round" />
-              </div>
-            </a>
-            <h3>
-              <a href="https://bella-academic.netlify.app/">Jialun Cao</a>
-            </h3>
             <p>PhD Student at HKUST</p>
           </div>
 
@@ -311,6 +288,29 @@ export function People(): ReactElement {
           {/* Former Members */}
           <div className="clearfix"> </div>
           <h2>Former Members</h2>
+
+          <div className="banner-bottom-left">
+            <a href="https://bella-academic.netlify.app/">
+              <div className="portrait">
+                <img alt="" src="images/cao.jpg" className="portrait-round" />
+              </div>
+            </a>
+            <h3>
+              <a href="https://bella-academic.netlify.app/">Jialun Cao</a>
+            </h3>
+            <p>PhD Student at HKUST</p>
+          </div>
+
+          <div className="banner-bottom-left">
+            <a href="https://home.cse.ust.hk/~jhuao/">
+              <div className="portrait jiajun"></div>
+            </a>
+
+            <h3>
+              <a href="https://home.cse.ust.hk/~jhuao/">Jiajun Hu</a>
+            </h3>
+            <p>PhD Graduate at HKUST</p>
+          </div>
 
           <div className="banner-bottom-left">
             <a href="https://huaxunhuang.github.io">
