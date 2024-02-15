@@ -33,7 +33,6 @@ export function Home(): ReactElement {
             Congrats to Ying, Ming, Jialun and Xiao.
           </li>
 
-
           <li>
             <b>Jul. 2023: </b> One paper on software testing using LLM is
             accepted by ASE'23.
