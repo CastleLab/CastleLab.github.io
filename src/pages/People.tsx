@@ -143,11 +143,14 @@ export function People(): ReactElement {
                 <img alt="" src="images/wuqi.jpg" className="portrait-round" />
               </div>
             </a>
-            <h3 style={{marginTop: '0'}}>
-              <a href="https://troublor.xyz"><span>William Cheung</span><br/><span style={{fontSize: '0.7em'}}>(Wuqi Zhang, 张无奇)</span></a>
+            <h3 style={{ marginTop: '0' }}>
+              <a href="https://troublor.xyz">
+                <span>William Cheung</span>
+                <br />
+                <span style={{ fontSize: '0.7em' }}>(Wuqi Zhang, 张无奇)</span>
+              </a>
             </h3>
-            <p>PhD Candidate at HKUST;
-            Research Scholar at Purdue</p>
+            <p>PhD Candidate at HKUST; Research Scholar at Purdue</p>
           </div>
 
           <div className="banner-bottom-left">
