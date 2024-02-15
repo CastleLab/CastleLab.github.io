@@ -23,8 +23,8 @@ export function News(): ReactElement {
         <div className="clearfix"> </div>
         <ul className="news-list">
           <li>
-            <b>Jan. 2024: </b> Jiajun Hu and Jialun Cao have successfully defended their PhD
-            thesis.
+            <b>Jan. 2024: </b> Jiajun Hu and Jialun Cao have successfully
+            defended their PhD thesis.
           </li>
 
           <li>
