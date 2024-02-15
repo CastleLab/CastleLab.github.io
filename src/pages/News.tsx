@@ -23,6 +23,15 @@ export function News(): ReactElement {
         <div className="clearfix"> </div>
         <ul className="news-list">
           <li>
+            <b>Jan. 2024: </b> Jiajun Hu and Jialun Cao have successfully defended their PhD
+            thesis.
+          </li>
+
+          <li>
+            <b> Nov. 2023: </b> One paper is accepted by IEEE S&P 2024.
+          </li>
+
+          <li>
             <b>Jul. 2023: </b> Three papers are accepted by ESEC/FSE 2023.
             Congrats to Ying, Ming, Jialun and Xiao.
           </li>
