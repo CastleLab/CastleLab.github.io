@@ -302,7 +302,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://bella-academic.netlify.app/">Jialun Cao</a>
             </h3>
-            <p>PhD Student at HKUST</p>
+            <p>PhD Graduate at HKUST</p>
           </div>
 
           <div className="banner-bottom-left">
