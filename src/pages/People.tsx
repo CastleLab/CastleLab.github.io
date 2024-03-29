@@ -114,14 +114,14 @@ export function People(): ReactElement {
           </div>
 
           <div className="banner-bottom-left">
-            <a href="http://home.cse.ust.hk/~ytianas/">
+            <a href="https://yqtianust.github.io/">
               <div className="portrait yongqiang"></div>
             </a>
 
             <h3>
               <a href="http://home.cse.ust.hk/~ytianas/">Yongqiang Tian</a>
             </h3>
-            <p>Post-doctoral Fellow at HKUST</p>
+            <p>Research Assistant Professor at HKUST</p>
           </div>
 
           {/*  Students  */}
