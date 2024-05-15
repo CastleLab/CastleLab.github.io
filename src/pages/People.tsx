@@ -339,7 +339,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://github.com/Derppening/">David Mak</a>
             </h3>
-            <p>MPhil Graduate. A future Ph.D. Student at HKUST</p>
+            <p>MPhil Graduate. Ph.D. Student at TACO Lab, HKUST</p>
           </div>
 
           <div className="banner-bottom-left">
