@@ -293,7 +293,7 @@ export function People(): ReactElement {
             <a href="https://jingyi-a-chen.github.io/">
               <div className="portrait">
                 <img
-                  alt="image of Jingyi Chen"
+                  alt=""
                   src="images/jingyi.jpg"
                   className="portrait-round"
                 />
