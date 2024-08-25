@@ -308,15 +308,14 @@ export function People(): ReactElement {
           <div className="banner-bottom-left">
             <div className="portrait">
               <img
-                  alt=""
-                  src="images/hauching.jpg"
-                  className="portrait-round"
+                alt=""
+                src="images/hauching.jpg"
+                className="portrait-round"
               />
             </div>
             <h3>Hau Ching Lo</h3>
             <p>MPhil Student at HKUST</p>
           </div>
-
 
           {/* Former Members */}
           <div className="clearfix"> </div>
