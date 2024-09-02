@@ -334,7 +334,7 @@ export function People(): ReactElement {
           </div>
 
           <div className="banner-bottom-left">
-            <a href="https://github.com/dlibk">
+            <a href="https://zongyiLyu.github.io/">
               <div className="portrait">
                 <img
                   alt=""
