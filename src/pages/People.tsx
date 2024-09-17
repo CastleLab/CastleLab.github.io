@@ -124,6 +124,32 @@ export function People(): ReactElement {
             <p>Research Assistant Professor at HKUST</p>
           </div>
 
+          <div className="banner-bottom-left">
+            <a href="https://huaxunhuang.github.io">
+              <div className="portrait huaxun"></div>
+            </a>
+
+            <h3>
+              <a href="https://huaxunhuang.github.io">Huaxun Huang</a>
+            </h3>
+            <p>
+              Assistant Professor at Xiamen University
+            </p>
+          </div>
+          
+          <div className="banner-bottom-left">
+            <a href="https://bella-academic.netlify.app/">
+              <div className="portrait">
+                <img alt="" src="images/cao.jpg" className="portrait-round" />
+              </div>
+            </a>
+            
+            <h3>
+              <a href="https://bella-academic.netlify.app/">Jialun Cao</a>
+            </h3>
+            <p>Research Assistant Professor at HKUST</p>
+          </div>
+
           {/*  Students  */}
 
           <div className="clearfix"> </div>
@@ -354,18 +380,6 @@ export function People(): ReactElement {
           <h2>Former Members</h2>
 
           <div className="banner-bottom-left">
-            <a href="https://bella-academic.netlify.app/">
-              <div className="portrait">
-                <img alt="" src="images/cao.jpg" className="portrait-round" />
-              </div>
-            </a>
-            <h3>
-              <a href="https://bella-academic.netlify.app/">Jialun Cao</a>
-            </h3>
-            <p>PhD Graduate at HKUST</p>
-          </div>
-
-          <div className="banner-bottom-left">
             <a href="https://home.cse.ust.hk/~jhuao/">
               <div className="portrait jiajun"></div>
             </a>
@@ -374,20 +388,6 @@ export function People(): ReactElement {
               <a href="https://home.cse.ust.hk/~jhuao/">Jiajun Hu</a>
             </h3>
             <p>PhD Graduate at HKUST</p>
-          </div>
-
-          <div className="banner-bottom-left">
-            <a href="https://huaxunhuang.github.io">
-              <div className="portrait huaxun"></div>
-            </a>
-
-            <h3>
-              <a href="https://huaxunhuang.github.io">Huaxun Huang</a>
-            </h3>
-            <p>
-              PhD Graduate at HKUST. An incoming Assistant Professor at Xiamen
-              University
-            </p>
           </div>
 
           <div className="banner-bottom-left">
