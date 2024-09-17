@@ -162,22 +162,6 @@ export function People(): ReactElement {
           </div>
 
           <div className="banner-bottom-left">
-            <a href="https://troublor.xyz">
-              <div className="portrait">
-                <img alt="" src="images/wuqi.jpg" className="portrait-round" />
-              </div>
-            </a>
-            <h3 style={{ marginTop: '0' }}>
-              <a href="https://troublor.xyz">
-                <span>William Cheung</span>
-                <br />
-                <span style={{ fontSize: '0.7em' }}>(Wuqi Zhang, 张无奇)</span>
-              </a>
-            </h3>
-            <p>PhD Candidate at HKUST; Research Scholar at Purdue</p>
-          </div>
-
-          <div className="banner-bottom-left">
             <div className="portrait">
               <img alt="" src="images/luliu.png" className="portrait-round" />
             </div>
@@ -308,7 +292,7 @@ export function People(): ReactElement {
               </div>
             </a>
             <h3>
-              <a href="https://zxhelaine.com">Xiaohan ZHONG</a>
+              <a href="https://zxhelaine.com">Xiaohan Zhong</a>
             </h3>
             <p>PhD Student at HKUST</p>
           </div>
@@ -376,6 +360,22 @@ export function People(): ReactElement {
           {/* Former Members */}
           <div className="clearfix"> </div>
           <h2>Former Members</h2>
+
+          <div className="banner-bottom-left">
+            <a href="https://troublor.xyz">
+              <div className="portrait">
+                <img alt="" src="images/wuqi.jpg" className="portrait-round" />
+              </div>
+            </a>
+            <h3 style={{ marginTop: '0' }}>
+              <a href="https://troublor.xyz">
+                <span>William Cheung</span>
+                <br />
+                <span style={{ fontSize: '0.7em' }}>(Wuqi Zhang, 张无奇)</span>
+              </a>
+            </h3>
+            <p>PhD Graduate at HKUST; Research Scholar at Purdue</p>
+          </div>
 
           <div className="banner-bottom-left">
             <a href="https://home.cse.ust.hk/~jhuao/">
