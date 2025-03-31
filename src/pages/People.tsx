@@ -136,14 +136,14 @@ export function People(): ReactElement {
           </div>
 
           <div className="banner-bottom-left">
-            <a href="https://bella-academic.netlify.app/">
+            <a href="https://jialuncao.github.io/">
               <div className="portrait">
                 <img alt="" src="images/cao.jpg" className="portrait-round" />
               </div>
             </a>
 
             <h3>
-              <a href="https://bella-academic.netlify.app/">Jialun Cao</a>
+              <a href="https://jialuncao.github.io/">Jialun Cao</a>
             </h3>
             <p>Research Assistant Professor at HKUST</p>
           </div>
