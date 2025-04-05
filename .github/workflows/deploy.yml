@@ -42,7 +42,7 @@ jobs:
 
       - name: Change permission
         run: |
-          chmod 755 -R build
+          chmod 775 -R build
 
       - name: Deploy
         uses: easingthemes/ssh-deploy@main
