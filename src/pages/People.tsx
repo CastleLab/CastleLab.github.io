@@ -90,12 +90,9 @@ export function People(): ReactElement {
           </div>
 
           <div className="banner-bottom-left">
-            <a href="https://mjkim720.github.io/">
+            <a href="https://mijungk.github.io/">
               <div className="portrait mijung"></div>
             </a>
-            {/*  <a href="http://moon.nju.edu.cn/spar/peoples/yyjiang/">  */}
-
-            {/*  </a>  */}
 
             <h3>
               <a href="https://mijungk.github.io/">Mijung Kim</a>
