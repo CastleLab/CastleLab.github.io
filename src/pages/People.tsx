@@ -65,7 +65,7 @@ export function People(): ReactElement {
             <h3>
               <a href="https://valerio65.github.io/">Valerio Terragni</a>
             </h3>
-            <p>Lecturer at The University of Auckland</p>
+            <p>Senior Lecturer at The University of Auckland</p>
           </div>
           <div className="banner-bottom-left">
             <a href="http://ics.nju.edu.cn/~jyy/">
@@ -98,7 +98,7 @@ export function People(): ReactElement {
             {/*  </a>  */}
 
             <h3>
-              <a href="https://mjkim720.github.io/">Mijung Kim</a>
+              <a href="https://mijungk.github.io/">Mijung Kim</a>
             </h3>
             <p>Assistant Professor at UNIST</p>
           </div>
