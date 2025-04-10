@@ -260,15 +260,17 @@ export function People(): ReactElement {
 
           <div className="banner-bottom-left">
             <a href="https://imcsq.github.io/">
-            <div className="portrait">
-              <img
-                alt=""
-                src="images/songqiang.png"
-                className="portrait-round"
-              />
-            </div>
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/songqiang.png"
+                  className="portrait-round"
+                />
+              </div>
             </a>
-            <h3><a href="https://imcsq.github.io/">Songqiang Chen</a></h3>
+            <h3>
+              <a href="https://imcsq.github.io/">Songqiang Chen</a>
+            </h3>
             <p>PhD Student at HKUST</p>
           </div>
 
