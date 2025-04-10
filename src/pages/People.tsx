@@ -272,9 +272,12 @@ export function People(): ReactElement {
 
           <div className="banner-bottom-left">
             <div className="portrait">
-              <img alt="" src="images/weiqi.png" className="portrait-round" />
+              <img alt="" src="images/weiqi.jpg" className="portrait-round" />
             </div>
-            <h3>Weiqi Lu</h3>
+            <h3>
+            <a href="https://github.com/williamlus">Weiqi Lu</a>
+            </h3>
+            
             <p>PhD Student at HKUST</p>
           </div>
 
