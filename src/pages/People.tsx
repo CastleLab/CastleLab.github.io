@@ -259,6 +259,7 @@ export function People(): ReactElement {
           </div>
 
           <div className="banner-bottom-left">
+            <a href="https://imcsq.github.io/">
             <div className="portrait">
               <img
                 alt=""
@@ -266,7 +267,8 @@ export function People(): ReactElement {
                 className="portrait-round"
               />
             </div>
-            <h3>Songqiang Chen</h3>
+            </a>
+            <h3><a href="https://imcsq.github.io/">Songqiang Chen</a></h3>
             <p>PhD Student at HKUST</p>
           </div>
 
