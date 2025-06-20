@@ -52,5 +52,5 @@ jobs:
           SOURCE: 'build/'
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          SSH_CMD_ARGS: '-o StrictHostKeyChecking=no -o ServerAliveInterval=3'
+          SSH_CMD_ARGS: '-o StrictHostKeyChecking=no -o ServerAliveInterval=3 -o ProxyJump=${{ secrets.RAS_HOST }}'
           TARGET: ${{ secrets.REMOTE_TARGET }}
