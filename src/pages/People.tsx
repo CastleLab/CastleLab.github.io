@@ -243,11 +243,11 @@ export function People(): ReactElement {
                   className="portrait-round"
                 />
               </div>
-            </a >
+            </a>
             <h3>
-              <a href="https://corazona-chen.github.io">Xiao Chen</a >
+              <a href="https://corazona-chen.github.io">Xiao Chen</a>
             </h3>
-            <p>PhD Student at HKUST</p >
+            <p>PhD Student at HKUST</p>
           </div>
 
           <div className="banner-bottom-left">
