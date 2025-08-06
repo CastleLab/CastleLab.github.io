@@ -116,9 +116,9 @@ export function People(): ReactElement {
             </a>
 
             <h3>
-              <a href="http://home.cse.ust.hk/~ytianas/">Yongqiang Tian</a>
+              <a href="http://yqtian.com">Yongqiang Tian</a>
             </h3>
-            <p>Research Assistant Professor at HKUST</p>
+            <p>Assistant Professor at Monash University</p>
           </div>
 
           <div className="banner-bottom-left">
