@@ -15,10 +15,10 @@ export function Home(): ReactElement {
         <h4>News</h4>
         <ul>
           <li>
-            <b>Jul. 2025: </b> Jiarong Wu have successfully
-            defended his PhD thesis.
+            <b>Jul. 2025: </b> Jiarong Wu have successfully defended his PhD
+            thesis.
           </li>
-          
+
           <li>
             <b>Jan. 2024: </b> Jiajun Hu and Jialun Cao have successfully
             defended their PhD thesis.
