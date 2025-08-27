@@ -365,6 +365,18 @@ export function People(): ReactElement {
             <p>PhD Student at HKUST</p>
           </div>
 
+          <div className="banner-bottom-left">
+            <div className="portrait">
+              <img
+                alt=""
+                src="images/yingqi.jpeg"
+                className="portrait-round"
+              />
+            </div>
+            <h3>Yingqi Zhong</h3>
+            <p>PhD Student at HKUST</p>
+          </div>
+
           {/* Former Members */}
           <div className="clearfix"> </div>
           <h2>Former Members</h2>
