@@ -162,7 +162,9 @@ export function People(): ReactElement {
             <div className="portrait">
               <img alt="" src="images/luliu.png" className="portrait-round" />
             </div>
-            <h3>Lu Liu</h3>
+            <h3>
+              <a href="https://liuluuuu.github.io/">Lu Liu</a>
+            </h3>
             <p>PhD Student at HKUST</p>
           </div>
 
