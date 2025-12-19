@@ -185,22 +185,6 @@ export function People(): ReactElement {
           </div>
 
           <div className="banner-bottom-left">
-            <a href="https://scholar.henryhc.net/">
-              <div className="portrait">
-                <img
-                  alt=""
-                  src="images/hengcheng.png"
-                  className="portrait-round"
-                />
-              </div>
-            </a>
-            <h3>
-              <a href="https://scholar.henryhc.net/">Hengcheng Zhu</a>
-            </h3>
-            <p>PhD Student at HKUST</p>
-          </div>
-
-          <div className="banner-bottom-left">
             <div className="portrait">
               <img alt="" src="images/tsz-on.jpg" className="portrait-round" />
             </div>
@@ -382,6 +366,22 @@ export function People(): ReactElement {
           {/* Former Members */}
           <div className="clearfix"> </div>
           <h2>Former Members</h2>
+
+          <div className="banner-bottom-left">
+            <a href="https://scholar.henryhc.net/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/hengcheng.png"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://scholar.henryhc.net/">Hengcheng Zhu</a>
+            </h3>
+            <p>PhD 2025; PostDoc at <a href="https://cispa.de/">CISPA</a></p>
+          </div>
 
           <div className="banner-bottom-left">
             <a href="https://troublor.xyz">
