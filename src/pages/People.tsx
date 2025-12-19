@@ -193,22 +193,6 @@ export function People(): ReactElement {
           </div>
 
           <div className="banner-bottom-left">
-            <a href="https://haoyang9804.github.io">
-              <div className="portrait">
-                <img
-                  alt=""
-                  src="images/haoyang.jpg"
-                  className="portrait-round"
-                />
-              </div>
-            </a>
-            <h3>
-              <a href="https://haoyang9804.github.io">Haoyang Ma</a>
-            </h3>
-            <p>PhD Student at HKUST</p>
-          </div>
-
-          <div className="banner-bottom-left">
             <a href="https://congyingxu.github.io/">
               <div className="portrait">
                 <img
@@ -366,6 +350,22 @@ export function People(): ReactElement {
           {/* Former Members */}
           <div className="clearfix"> </div>
           <h2>Former Members</h2>
+
+          <div className="banner-bottom-left">
+            <a href="https://haoyang9804.github.io">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/haoyang.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://haoyang9804.github.io">Haoyang Ma</a>
+            </h3>
+            <p>AI Infra Engineer at <a href="http://spirit-ai.com">Spirit AI</a></p>
+          </div>
 
           <div className="banner-bottom-left">
             <a href="https://scholar.henryhc.net/">
