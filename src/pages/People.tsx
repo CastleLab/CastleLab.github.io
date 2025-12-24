@@ -357,7 +357,7 @@ export function People(): ReactElement {
               <a href="https://haoyang9804.github.io">Haoyang Ma</a>
             </h3>
             <p>
-              AI Infra Engineer at <a href="http://spirit-ai.com">Spirit AI</a>
+            PhD Graduate at HKUST; AI Infra Engineer at an Embodied AI startup
             </p>
           </div>
 
