@@ -336,7 +336,7 @@ export function People(): ReactElement {
           <h2>Former Members</h2>
 
           <div className="banner-bottom-left">
-            <a href="https://haoyang9804.github.io">
+            <a href="https://www.linkedin.com/in/haoyang-ma-lyr/">
               <div className="portrait">
                 <img
                   alt=""
@@ -346,7 +346,7 @@ export function People(): ReactElement {
               </div>
             </a>
             <h3>
-              <a href="https://haoyang9804.github.io">Haoyang Ma</a>
+              <a href="https://www.linkedin.com/in/haoyang-ma-lyr/">Haoyang Ma</a>
             </h3>
             <p>PhD 2025; Research Engineer at ByteDance</p>
           </div>
