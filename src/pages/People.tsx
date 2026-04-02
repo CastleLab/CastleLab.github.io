@@ -145,6 +145,22 @@ export function People(): ReactElement {
             <p>Research Assistant Professor at HKUST</p>
           </div>
 
+          <div className="banner-bottom-left">
+            <a href="https://congyingxu.github.io/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/congying.jpeg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://congyingxu.github.io/">Congying Xu</a>
+            </h3>
+            <p>Postdoc at HKUST</p>
+          </div>
+
           {/*  Students  */}
 
           <div className="clearfix"> </div>
@@ -181,22 +197,6 @@ export function People(): ReactElement {
               <img alt="" src="images/tsz-on.jpg" className="portrait-round" />
             </div>
             <h3>Tsz On Li</h3>
-            <p>PhD Student at HKUST</p>
-          </div>
-
-          <div className="banner-bottom-left">
-            <a href="https://congyingxu.github.io/">
-              <div className="portrait">
-                <img
-                  alt=""
-                  src="images/congying.jpeg"
-                  className="portrait-round"
-                />
-              </div>
-            </a>
-            <h3>
-              <a href="https://congyingxu.github.io/">Congying Xu</a>
-            </h3>
             <p>PhD Student at HKUST</p>
           </div>
 
