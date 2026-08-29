@@ -145,22 +145,6 @@ export function People(): ReactElement {
             <p>Research Assistant Professor at HKUST</p>
           </div>
 
-          <div className="banner-bottom-left">
-            <a href="https://congyingxu.github.io/">
-              <div className="portrait">
-                <img
-                  alt=""
-                  src="images/congying.jpeg"
-                  className="portrait-round"
-                />
-              </div>
-            </a>
-            <h3>
-              <a href="https://congyingxu.github.io/">Congying Xu</a>
-            </h3>
-            <p>Postdoc at HKUST</p>
-          </div>
-
           {/*  Students  */}
 
           <div className="clearfix"> </div>
@@ -334,6 +318,22 @@ export function People(): ReactElement {
           {/* Former Members */}
           <div className="clearfix"> </div>
           <h2>Former Members</h2>
+
+          <div className="banner-bottom-left">
+            <a href="https://congyingxu.github.io/">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/congying.jpeg"
+                  className="portrait-round"
+                />
+              </div>
+            </a>
+            <h3>
+              <a href="https://congyingxu.github.io/">Congying Xu</a>
+            </h3>
+            <p>PhD Graduate at HKUST</p>
+          </div>
 
           <div className="banner-bottom-left">
             <a href="https://www.linkedin.com/in/haoyang-ma-lyr/">
